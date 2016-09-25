@@ -21,6 +21,9 @@ main{
     height: 100vh;
 
 }
+ul{
+  list-style-type: none;
+}
 a{
   color: #3259a5;
   text-decoration: none;
@@ -110,20 +113,13 @@ a:hover{
   font-weight: 200;
 }
 
-.contact-list{
-  list-style-type: none;
+.contact-list{ // ul
   padding: 0;
   margin: .7em .5em;
-/*  display: inline-block;
-  width: 49%;
-  padding: 0;
-  margin: 0;*/
 }
 
 .contact-list li{
   padding: 5px;
-/*  display: block;
-  height: 2em;*/
 }
 
 .contact-list img{
@@ -148,4 +144,25 @@ a:hover{
 .blue-table td:last-of-type{
   width: 70%;
   background-color: #dcecfe;
+}
+
+.top-8{ 
+  padding: 0;
+}
+
+.top-8 li{
+  width: 22%;
+  width: calc(25% - 20px);
+  margin: 7px;
+  display: inline-block;
+  font-weight: 700;
+}
+
+.top-8 span{
+  display: block;
+  text-align: center;
+}
+
+.top-8 img{
+  width: 100%;
 }
