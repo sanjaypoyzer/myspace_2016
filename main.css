@@ -115,13 +115,15 @@ a:hover{
   font-weight: 200;
 }
 
-.contact-list{ // ul
+.contact-list{ 
   padding: 0;
   margin: .7em .5em;
 }
 
 .contact-list li{
   padding: 5px;
+  width: calc(50% - 24px);
+  display: inline-block;
 }
 
 .contact-list img{
