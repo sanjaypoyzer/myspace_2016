@@ -1,0 +1,143 @@
+body{
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: 400;
+  background-color: #e5e5e5;
+  margin: 0;
+  padding: 0;
+}
+.outer-container{
+  display: block;
+  max-width: 800px;
+  margin: 0 auto;
+}
+nav{
+  background: #6699cc;
+  color: white;
+}
+main{
+  background-color: white;
+  padding: 25px 11px 0 27px;
+    height: 100vh;
+
+}
+a{
+  color: #3259a5;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+.col-1, .col-2{
+  float: left;
+  width: 50%;
+}
+
+.col-1{
+  padding: 0 38px 0 0;
+  box-sizing: border-box;
+}
+
+.name-col-1{
+  width: 230px;
+  display: inline-block;
+}
+
+.name-col-2{
+  width: 100px;
+  display: inline-block;
+}
+
+.name{
+  font-size: 1.5em;
+  margin: 0;
+}
+.face-box{
+  margin: 0;
+}
+.face{
+  width: 220px;
+}
+.contact-box{
+  margin-top: 15px;
+  border: 2px solid #6699cc;
+}
+.extended-network-box{
+  border: 2px solid black;
+  padding: 0 1em;
+}
+.extended-network{
+  font-size: 1.2em;
+}
+.blog-title{
+  font-size: 1em;
+}
+
+.blurbs-title{
+  background-color: #fecb96;
+  color: #f46429;
+  font-size: 1em;
+  padding: 2px 0 2px 18px;
+}
+
+.about-title{
+  color: #f46429;
+  font-size: 1em;
+  margin: 0;
+}
+
+.about{
+  margin-bottom: 2em;
+}
+
+.about p, .about-title + p{
+  margin-top: 0;
+}
+
+.blue-box-title{
+  color: white;
+  background-color: #6699cc;
+  font-size: 1em;
+  padding: 2px 0 2px 18px;
+  margin: 0;
+}
+
+.friends-title{
+  font-size: 1em;
+}
+.friends-count{
+  color: red;
+  font-weight: 200;
+}
+
+.contact-list{
+  list-style-type: none;
+  display: inline-block;
+  width: 49%;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-list li{
+  display: block;
+  height: 2em;
+}
+
+.blue-table{
+  border-spacing: 3px;
+}
+
+.blue-table td{
+  padding: .4em .2em;
+}
+
+.blue-table td:first-of-type{
+  width: 30%;
+  background-color: #bedcf6;
+  color: #6699cc;
+  font-weight: 800;
+}
+
+.blue-table td:last-of-type{
+  width: 70%;
+  background-color: #dcecfe;
+}
