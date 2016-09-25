@@ -15,6 +15,7 @@ nav{
   background: #6699cc;
   color: white;
   text-align: center;
+  padding: .5em;
 }
 main{
   background-color: white;
@@ -55,6 +56,7 @@ a:hover{
 .name{
   font-size: 1.5em;
   margin: 0;
+  padding: 0 0 1em;
 }
 .face-box{
   margin: 0;
@@ -69,6 +71,7 @@ a:hover{
 .extended-network-box{
   border: 2px solid black;
   padding: 0 1em;
+  margin-top: 1em;
 }
 .extended-network{
   font-size: 1.2em;
@@ -117,13 +120,14 @@ a:hover{
 
 .contact-list{ 
   padding: 0;
-  margin: .7em .5em;
+  margin: .2em 0;  
 }
 
 .contact-list li{
   padding: 5px;
-  width: calc(50% - 24px);
+  width: 49%;
   display: inline-block;
+  box-sizing: border-box;
 }
 
 .contact-list img{
