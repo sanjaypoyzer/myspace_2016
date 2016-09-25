@@ -20,7 +20,7 @@ nav{
 main{
   background-color: white;
   padding: 25px 11px 3em 27px;
-
+  display: flex;
 }
 ul{
   list-style-type: none;
